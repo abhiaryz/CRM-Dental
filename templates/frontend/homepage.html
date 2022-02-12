@@ -1,0 +1,22 @@
+<html>
+<head>
+  <title>getElementById example</title>
+</head>
+<body>
+  <p id="para" >Some text here</p>
+  <br>
+  <p id="demo">Some text here</p>
+
+  <button onclick="changeColor('blue');">blue</button>
+  <button onclick="changeColor('green');">red</button>
+</body>
+
+<script>
+    function changeColor(newColor) {
+    document.getElementById("demo").innerHTML = "My First JavaScript";
+  var elem = document.getElementById('para');
+  elem.style.color = newColor;
+
+}
+    </script>
+</html>
